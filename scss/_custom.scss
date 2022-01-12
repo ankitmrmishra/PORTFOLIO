@@ -1,3 +1,9 @@
+//primary and secondary colors
+$teal:    #00ffb3 ;
+$cyan:    #0dcaf0 ;
+
+
+
 
 //white colors
 $white:    #fff ;
@@ -12,12 +18,9 @@ $gray-800: #343a40 ;
 $gray-900: #212529 ;
 $black:    #000 ;
 
-//primary and secondary colors
-$teal-dark:    #00ffb3 ;
-$cyan:    #00d5ff ;
 
-$primary:       $teal-dark;
-$secondary:     $cyan;
+$primary: $teal ;
+$secondary:  $cyan ;
 
 // acoordian colors
 $accordion-icon-color:                    $primary ;
@@ -32,4 +35,4 @@ $accordion-icon-width:                    1.875rem ;
 
 
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss"
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
