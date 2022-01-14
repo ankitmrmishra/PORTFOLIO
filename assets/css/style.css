@@ -11118,8 +11118,43 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-rounded {
+  position: relative;
+  padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  border: 0.1rem solid rgba(255, 255, 255, 0.5);
+  background-color: #fff;
+}
+.btn-rounded span {
+  position: absolute;
+  background-color: #00ffb3;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.btn-rounded span i {
+  color: #000;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+.btn-rounded:hover {
+  background: linear-gradient(to right, rgba(0, 255, 179, 0.95), rgba(13, 202, 240, 0.95));
+}
+
 .bg-menu {
   background: linear-gradient(to right, rgba(0, 255, 179, 0.95), rgba(13, 202, 240, 0.95));
+}
+.bg-menu li {
+  padding: 0 0.75rem;
+}
+.bg-menu li a {
+  color: #010002 !important;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 
 /* IMPORT COMPOMETS */
