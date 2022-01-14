@@ -11157,6 +11157,12 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 
+.navbar-brand {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 /* IMPORT COMPOMETS */
 
 /*# sourceMappingURL=style.css.map */
