@@ -11177,6 +11177,26 @@ textarea.form-control-lg {
   text-transform: none;
 }
 
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  background-color: #00ffb3;
+  margin: 0 auto;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  height: 0.2rem;
+  display: block;
+  background-color: #00ffb3;
+  padding-top: 0.5rem;
+  margin-bottom: 1rem;
+  margin: 0 auto;
+}
+
 .bg-menu {
   background: linear-gradient(to right, rgba(0, 255, 179, 0.95), rgba(13, 202, 240, 0.95));
 }
@@ -11231,6 +11251,15 @@ textarea.form-control-lg {
 }
 .border-animation--border-2 {
   animation-delay: 1.5s;
+}
+
+.comapnies {
+  padding: 0 0 5rem 0;
+}
+.comapnies__project-box {
+  max-width: 15rem;
+  max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* IMPORT COMPOMETS */

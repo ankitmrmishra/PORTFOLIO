@@ -24,3 +24,23 @@ font-family: 'Ubuntu', sans-serif;
     text-transform: none;
 }
 }
+
+.heading-line::before{
+    content: "";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    background-color: $primary;
+    margin: 0 auto;
+    }
+    
+    .heading-line::after{
+        content: "";
+        width: 2rem;
+        height: 0.2rem;
+        display: block;
+        background-color: $primary;
+        padding-top:0.5rem;
+        margin-bottom: 1rem;
+        margin: 0 auto;
+        }
