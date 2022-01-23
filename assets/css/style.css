@@ -11268,6 +11268,10 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.projectbox:hover {
+  transform: scale(1.1);
+}
+
 /* IMPORT COMPOMETS */
 
 /*# sourceMappingURL=style.css.map */
