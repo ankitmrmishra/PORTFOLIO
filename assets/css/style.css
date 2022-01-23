@@ -11197,6 +11197,11 @@ textarea.form-control-lg {
   margin: 0 auto;
 }
 
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 100%;
+}
+
 .bg-menu {
   background: linear-gradient(to right, rgba(0, 255, 179, 0.95), rgba(13, 202, 240, 0.95));
 }
@@ -11269,7 +11274,7 @@ textarea.form-control-lg {
 }
 
 .projectbox:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 /* IMPORT COMPOMETS */
