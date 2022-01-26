@@ -11292,6 +11292,12 @@ textarea.form-control-lg {
   transform: scale(0.9);
 }
 
+.testimonials {
+  position: relative;
+  padding: 0;
+  background: linear-gradient(to right, rgba(0, 255, 179, 0.95), rgba(13, 202, 240, 0.95));
+}
+
 .services {
   position: relative;
   padding: 1rem 0;
