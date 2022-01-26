@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ANKIT MISHRA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
      <link rel="stylesheet" href="assets/css/fontawesome.css">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/vendors/css/glightbox.css">
-<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+
 </head>
 <body>
     
@@ -240,194 +241,150 @@
 
 </section>
 
-<section class="testimonials" id="testimonials">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L60,69.3C120,107,240,181,360,186.7C480,192,600,128,720,133.3C840,139,960,213,1080,245.3C1200,277,1320,267,1380,261.3L1440,256L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////
+                               START SECTION 5 - THE TESTIMONIALS  
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section  class="testimonials">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
   <div class="container">
-    <div class="row text-center">
-      <h1 class="display-3 fw-bold">
-        Testimonials
-      </h1>
-      <hr style="width: 100px; height: 3px;" class="mx-auto">
+    <div class="row text-center text-white">
+      <h1 class="display-3 fw-bold">Testimonials</h1>
+      <hr style="width: 100px; height: 3px; " class="mx-auto">
       <p class="lead pt-1">what our clients are saying</p>
     </div>
 
-<!-- START THE CAROUSEL CONTENT -->
-<div class="row align-items-center">
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-
-        <!-- CAROUSEL ITEM 1 -->
-
-      <div class="carousel-item active">
-       <!-- testimonials card -->
-         <div class="testimonials__card">
-<p class="lh-lg">
-  <i class="fas fa-quote-left"></i>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate commodi, eligendi et officia eveniet quos minus, reprehenderit consequuntur nobis facilis doloremque! Sint quod commodi inventore et, deleniti quos.
-  <i class="fas fa-quote-right"></i>
-  <div class="ratings">
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-  </div>
-</p>
-         </div>
-       <!-- client picture -->
-      <div class="testimonials__picture">
-<img src="IMAGES/clients/client-1.jpg" alt="client-1 picture" class="img-fluid">
+    <!-- START THE CAROUSEL CONTENT  -->
+    <div class="row align-items-center">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <!-- client name and role -->
-      <div class="testimonials__name">
-<h3>XYZ</h3>
-<p class="fw-light">
-  CEO &founder
-</p>
-      </div>
-      </div>
-     <!-- CAROUSEL ITEM 2 -->
-
-     <div class="carousel-item">
-      <!-- testimonials card -->
-        <div class="testimonials__card">
-<p class="lh-lg">
- <i class="fas fa-quote-left"></i>
- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate commodi, eligendi et officia eveniet quos minus, reprehenderit consequuntur nobis facilis doloremque! Sint quod commodi inventore et, deleniti quos.
- <i class="fas fa-quote-right"></i>
- <div class="ratings">
-   <i class="fas fa-star"></i>
-   <i class="fas fa-star"></i>
-   <i class="fas fa-star"></i>
-   <i class="fas fa-star"></i>
-   <i class="fas fa-star"></i>
- </div>
-</p>
-        </div>
-      <!-- client picture -->
-     <div class="testimonials__picture">
-<img src="IMAGES/clients/client-2.jpg" alt="client-1 picture" class="img-fluid">
-     </div>
-     <!-- client name and role -->
-     <div class="testimonials__name">
-<h3>XYZ</h3>
-<p class="fw-light">
- CEO &founder
-</p>
-     </div>
-     </div>
-
-          <!-- CAROUSEL ITEM 3 -->
-
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- CAROUSEL ITEM 1 -->
+          <div class="carousel-item active">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+              <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>Patrick Muriungi</h3>
+              <p class="fw-light">CEO & founder</p>
+            </div>
+          </div>     
+          <!-- CAROUSEL ITEM 2 -->
           <div class="carousel-item">
-            <!-- testimonials card -->
-              <div class="testimonials__card">
-     <p class="lh-lg">
-       <i class="fas fa-quote-left"></i>
-       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate commodi, eligendi et officia eveniet quos minus, reprehenderit consequuntur nobis facilis doloremque! Sint quod commodi inventore et, deleniti quos.
-       <i class="fas fa-quote-right"></i>
-       <div class="ratings">
-         <i class="fas fa-star"></i>
-         <i class="fas fa-star"></i>
-         <i class="fas fa-star"></i>
-         <i class="fas fa-star"></i>
-         <i class="fas fa-star"></i>
-       </div>
-     </p>
-              </div>
-            <!-- client picture -->
-           <div class="testimonials__picture">
-     <img src="IMAGES/clients/client-3.jpg" alt="client-1 picture" class="img-fluid">
-           </div>
-           <!-- client name and role -->
-           <div class="testimonials__name">
-     <h3>XYZ</h3>
-     <p class="fw-light">
-       CEO &founder
-     </p>
-           </div>
-           </div>
-     
-
-     <!-- CAROUSEL ITEM 4 -->
-
-     <div class="carousel-item">
-      <!-- testimonials card -->
-        <div class="testimonials__card">
-<p class="lh-lg">
- <i class="fas fa-quote-left"></i>
- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate commodi, eligendi et officia eveniet quos minus, reprehenderit consequuntur nobis facilis doloremque! Sint quod commodi inventore et, deleniti quos.
- <i class="fas fa-quote-right"></i>
- <div class="ratings">
-   <i class="fas fa-star"></i>
-   <i class="fas fa-star"></i>
-   <i class="fas fa-star"></i>
-   <i class="fas fa-star"></i>
-   <i class="fas fa-star"></i>
- </div>
-</p>
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+              <img src="images/testimonials/client-2.jpg" alt="client-2 picture" class="rounded-circle img-fluid">
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>Joy Marete</h3>
+              <p class="fw-light">Finance Manager</p>
+            </div>
+          </div>     
+          <!-- CAROUSEL ITEM 3 -->
+          <div class="carousel-item">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+              <img src="images/testimonials/client-3.jpg" alt="client-3 picture" class="rounded-circle img-fluid">
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>ClaireBelle Zawadi</h3>
+              <p class="fw-light">Global brand manager</p>
+            </div>
+          </div>     
+          <!-- CAROUSEL ITEM 4 -->
+          <div class="carousel-item">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+              <img src="images/testimonials/client-4.jpg" alt="client-4 picture" class="rounded-circle img-fluid">
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>Uhuru Kenyatta</h3>
+              <p class="fw-light">C.E.O & Founder</p>
+            </div>
+          </div>     
         </div>
-      <!-- client picture -->
-     <div class="testimonials__picture">
-<img src="IMAGES/clients/client-4.jpg" alt="client-1 picture" class="img-fluid">
-     </div>
-     <!-- client name and role -->
-     <div class="testimonials__name">
-<h3>XYZ</h3>
-<p class="fw-light">
- CEO &founder
-</p>
-     </div>
-     </div>
-
-     <!-- CAROUSEL ITEM 5-->
-
-     <div class="carousel-item">
-      <!-- testimonials card -->
-        <div class="testimonials__card">
-<p class="lh-lg">
- <i class="fas fa-quote-left"></i>
- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate commodi, eligendi et officia eveniet quos minus, reprehenderit consequuntur nobis facilis doloremque! Sint quod commodi inventore et, deleniti quos.
- <i class="fas fa-quote-right"></i>
- <div class="ratings">
-   <i class="fas fa-star"></i>
-   <i class="fas fa-star"></i>
-   <i class="fas fa-star"></i>
-   <i class="fas fa-star"></i>
-   <i class="fas fa-star"></i>
- </div>
-</p>
+        <div class="text-center">
+          <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        </button>
+        <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        </button>
         </div>
-      <!-- client picture -->
-     <div class="testimonials__picture">
-<img src="IMAGES/clients/client-5 - Copy.jpg" alt="client-1 picture" class="img-fluid">
-     </div>
-     <!-- client name and role -->
-     <div class="testimonials__name">
-<h3>XYZ</h3>
-<p class="fw-light">
- CEO &founder
-</p>
-     </div>
-     </div>
-
-     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div> 
-</div>
-
-
-
-
+      </div>
+    </div>
   </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L60,69.3C120,107,240,181,360,186.7C480,192,600,128,720,133.3C840,139,960,213,1080,245.3C1200,277,1320,267,1380,261.3L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </section>
 
 <!-- JAVASCRIPT -->
@@ -440,7 +397,7 @@ const lightbox = GLightbox({
             'width': 900,
 });
 </script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
 </body>
