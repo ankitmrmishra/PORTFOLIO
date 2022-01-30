@@ -11217,6 +11217,10 @@ textarea.form-control-lg {
   }
 }
 
+.gradient {
+  background: linear-gradient(to right, rgba(0, 255, 179, 0.95), rgba(13, 202, 240, 0.95));
+}
+
 .bg-menu {
   background: linear-gradient(to right, rgba(0, 255, 179, 0.95), rgba(13, 202, 240, 0.95));
 }
@@ -11414,6 +11418,31 @@ textarea.form-control-lg {
 }
 .services__pic {
   width: 100%;
+}
+
+.get-started {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.65rem;
+}
+.cta-info__list li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f058";
+  font-weight: 600;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
 }
 
 /* IMPORT COMPOMETS */
